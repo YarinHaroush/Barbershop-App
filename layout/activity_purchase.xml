@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/backgroundblack"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TextView
+        android:id="@+id/welcome_barber"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="50dp"
+        android:padding="10dp"
+        android:text="@string/welcome_store_text"
+        android:textColor="@color/White"
+        android:textSize="25sp" />
+
+    <EditText
+        android:id="@+id/edit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="20dp"
+        android:gravity="center"
+        android:layout_margin="10dp"
+        android:background="@drawable/shape_background"
+        android:hint="@string/num_purchase"
+        android:textSize="20sp"
+        android:layout_below="@id/welcome_barber"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/Gray"
+        android:layout_marginHorizontal="120dp"
+        android:textSize="20sp"
+        android:gravity="center"
+        android:background="@drawable/shape_selector"
+        android:id="@+id/add"
+
+        android:layout_marginTop="10dp"
+        android:text="@string/add_button"
+        android:padding="10dp"
+        android:textAllCaps="false"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="10dp"
+        android:layout_margin="10dp">
+
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@color/Gray"
+            android:id="@+id/product">
+
+        </LinearLayout>
+    </ScrollView>
+
+
+
+</LinearLayout>

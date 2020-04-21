@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">BarberShop Application</string>
+    <string name="welcome_text">"Welcome to "</string>
+    <string name="date_btn">Choose date</string>
+    <string name="hour_btn">Choose hour</string>
+    <string name="rate_btn">Rate application</string>
+    <string name="next_btn">Next</string>
+    <string name="type_of_haircut">Type of haircut</string>
+    <string name="prev_btn">previous</string>
+    <string name="type_btn">Haircut type</string>
+    <string name="wash_hair">Wash hair</string>
+    <string name="not_wash_hair">Non wash hair</string>
+    <string name="barbershop_text">Barbershop</string>
+    <string name="submit_text">Submit</string>
+    <string name="rating_text">Thanks for rating us !</string>
+    <string name="store_btn">Store</string>
+    <string name="welcome_store_text">Welcome to BarberStore</string>
+    <string name="num_purchase">How many products would you like to buy?</string>
+    <string name="add_button">Add products</string>
+    <string name="add_cart">Add to cart</string>
+    <string name="product_btn">Product</string>
+    <string name="toast_num">Insert only numbers please</string>
+
+</resources>

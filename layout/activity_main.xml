@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backgroundblack"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/welcome_text"
+        android:gravity="center_horizontal"
+        android:layout_centerHorizontal="true"
+        android:layout_marginHorizontal="20dp"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/White"
+        android:padding="10dp"
+        android:textAllCaps="false"
+        android:id="@+id/welcome_a"/>
+
+    <ImageView
+        android:id="@+id/log"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_below="@id/welcome_a"
+        android:layout_marginTop="10dp"
+        android:layout_marginHorizontal="100dp"
+        android:src="@drawable/loggo"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/barbershop_text"
+        android:gravity="center_horizontal"
+        android:layout_centerHorizontal="true"
+        android:layout_marginHorizontal="20dp"
+        android:textStyle="bold"
+        android:textSize="25sp"
+        android:layout_marginTop="1dp"
+        android:layout_below="@id/log"
+        android:textColor="@color/White"
+        android:padding="5dp"
+        android:textAllCaps="true"
+        android:id="@+id/barber"/>
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginHorizontal="130dp"
+        android:textColor="@color/Gray"
+        android:id="@+id/tpye_a"
+        android:textSize="15sp"
+        android:text="@string/type_btn"
+        android:background="@drawable/shape_selector"
+        android:layout_below="@id/barber"
+        android:gravity="center"
+        android:padding="10dp"
+        android:textAllCaps="false"
+        android:layout_marginTop="30dp"/>
+
+    <Button
+        android:textColor="@color/Gray"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginHorizontal="130dp"
+        android:textSize="15sp"
+        android:gravity="center"
+        android:background="@drawable/shape_selector"
+        android:id="@+id/date_a"
+        android:text="@string/date_btn"
+        android:layout_below="@id/tpye_a"
+        android:padding="10dp"
+        android:textAllCaps="false"
+        android:layout_marginTop="10dp"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/Gray"
+        android:background="@drawable/shape_selector"
+        android:gravity="center"
+        android:textSize="15sp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginHorizontal="130dp"
+        android:id="@+id/hour_a"
+        android:text="@string/hour_btn"
+        android:textAllCaps="false"
+        android:padding="10dp"
+        android:layout_below="@id/date_a"
+        android:layout_marginTop="10dp"/>
+
+    <RadioGroup
+        android:id="@+id/radio_hair"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/hour_a"
+        android:gravity="center"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal"
+        android:padding="10dp">
+
+        <RadioButton
+            android:id="@+id/radio_wash"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:buttonTint="@color/color_selector"
+            android:checked="true"
+            android:padding="5dp"
+            android:text="@string/wash_hair"
+            android:textColor="@color/color_selector"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <RadioButton
+            android:id="@+id/radio_not_wash"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:buttonTint="@color/color_selector"
+            android:checked="false"
+            android:padding="5dp"
+            android:text="@string/not_wash_hair"
+            android:textColor="@color/color_selector"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/store_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/shape_selector"
+        android:text="@string/store_btn"
+        android:textAllCaps="false"
+        android:layout_centerHorizontal="true"
+        android:layout_marginHorizontal="130dp"
+        android:padding="10dp"
+        android:layout_below="@id/radio_hair"
+        android:textSize="15sp"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/Gray" />
+
+    <Button
+
+        android:id="@+id/rate_a"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="130dp"
+        android:background="@drawable/shape_selector"
+        android:padding="10dp"
+        android:layout_below="@id/store_btn"
+        android:text="@string/rate_btn"
+        android:textSize="15sp"
+        android:textAllCaps="false"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/Gray" />
+
+
+</RelativeLayout>
